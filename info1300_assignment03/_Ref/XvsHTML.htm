@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>HTML vs. XML: A Tale of Two Standards</title>
+</head>
+
+<body>
+
+<div id="banner">
+    <h1>HTML vs. XML: A Tale of Two Standards</h1>
+</div><!-- end of banner div -->
+    
+<div id="nav_bar">
+    <span class="nav_span">HTML Specification</span>
+    <span class="nav_span">HTML Validator</span>
+    <span class="nav_span">XML Specification</span>
+    <span class="nav_span">XML Validator</span>
+</div> <!-- end of nav_bar div -->
+
+<div id="container">
+
+<div id="content">
+    
+    <div id="compare">
+        <!-- HTML image from https://openclipart.org/detail/169751/fileiconhtml -->
+        <img src="images/file-icon-html-150px.png" alt="HTML">
+        <span class="oversize">vs.</span>
+        <!-- XML image from https://openclipart.org/detail/169753/fileiconxml -->
+        <img src="images/file-icon-xml-150px.png" alt="XML">
+    </div> <!-- end of compare div -->
+        
+    <h2>So What's the Difference?</h2>
+    <p>HTML and XML offer different feature sets for Web developers. HTML provides a fixed set of structural elements to mark up headings, paragraphs tables, etc. XML, in contrast, provides extensibility, allowing developers to create new elements as needed. Just as importantly, XML provides <em>semantic</em> markup, i.e., an indication of what the content of an element <em>means</em>.</p>
+
+    <p>A couple of sample tags will illustrate. The HTML tag simply tells us that the text is a heading. The XML tag tells us that the content of the text describes the author:</p>
+    
+    <ul>
+        <li>HTML: <code>&lt;h2&gt;George R.R. Martin&lt;&#47;h2&gt;</code></li>
+        <li>XML: <code>&lt;author&gt;George R.R. Martin&lt;&#47;author&gt;</code></li>
+    </ul>
+    
+    <p>Both Specifications (<a href="https://www.w3.org/TR/html5/">HTML Specification</a>, <a href="https://www.w3.org/TR/REC-xml/">XML Specification</a>) are maintained by the <a href="https://www.w3.org/">World Wide Web Consortium (W3C)</a>. There is also a free, online validator available for each language (<a href="https://validator.w3.org/">HTML validator</a>, <a href="http://www.validome.org/xml/">XML validator</a>).</p>
+        
+    <h2>Feature Comparison</h2>
+        <table>
+            <caption>Table 1: Feature Comparison</caption>
+            <tr>
+                <td></td>
+                <th>HTML</th>
+                <th>XML</th>
+            </tr>
+            <!-- <tr>
+                <td>Sample Tag</td>
+                <td>
+                        <code>&lt;h2&gt;George R.R. Martin&lt;&#47;h2&gt;</code>
+                </td>
+                <td>
+                        <code>&lt;author&gt;George R.R. Martin&lt;&#47;author&gt;</code>
+                </td>
+            </tr> -->
+            <tr>
+                <td>Structure</td>
+                <td>yes</td>
+                <td>yes</td>
+            </tr>
+            <tr>
+                <td>Semantic Description</td>
+                <td>limited</td>
+                <td>yes</td>
+            </tr>
+            <tr>
+                <td>Extensibility</td>
+                <td>no</td>
+                <td>yes</td>
+            </tr>
+            <tr>
+                <td>Stylable</td>
+                <td>yes</td>
+                <td>yes</td>
+            </tr>
+            <tr>
+                <td>Browser Support</td>
+                <td>yes</td>
+                <td>limited</td>
+            </tr>
+        </table>
+    
+</div> <!-- end of content div -->   
+    
+</div> <!-- end of container div -->
+
+</body>
+
+</html>

@@ -1,0 +1,217 @@
+/*
+INFO/CS 1300
+Fall 2016
+Nianze Liu
+Assignment 5 for Responsive Design
+*/
+
+html, body {
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #efefef;
+    font-family: 'David Libre', serif;
+    font-size: 0.9em;
+}
+
+h1, h2 {
+    font-family: 'Open Sans', sans-serif;
+}
+
+p {
+    font-size: 110%;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing: 0;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px auto;
+    margin-top: 1.5em;
+}
+
+tr td:first-child {
+    padding-right: 2em;
+}
+
+tr td:not(:first-child) {
+    border-bottom: solid 1px #abd9e9;
+    padding-right: 3em;
+    padding-left: 3em;
+    text-align: center;
+}
+
+th {
+    border-bottom: solid 3px #ffb500;
+}
+
+td {
+    padding: 0.5em;
+}
+
+caption {
+    caption-side: bottom;
+    font-size: 1.25em;
+    margin-top: 1em;
+}
+
+/****************************/
+/* styling by section       */
+/****************************/
+
+#top_nav {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25em;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 1em;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 1;
+}
+
+#top_nav > span:first-child {
+    margin-left: 1.5em;
+}
+
+#top_nav > span {
+    margin-right: 1em;
+    color: #ffb500;
+}
+
+#top {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+}
+
+#top > img {
+    width: 100%;
+    margin-top: 3em;
+}
+
+#top2 {
+    display: none;
+    margin: 0 auto;
+    margin-top: 6em;
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}
+
+#top2 h1, h2 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#container {
+    /* border: solid 1px red; */
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+#content {
+    /* border: solid 1px #dedede; */
+    background-color: #ffffff;
+    float: left;
+    margin-top: 2em;
+    /* margin-right: auto; */
+    margin-left: 2.5em;
+    width: 74%;
+    padding: 0.5em; 
+}
+
+.image {
+    /*border: solid 1px #bcbcbc;*/
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.image > img {
+    max-width: 85%;
+    display: block;
+    margin: auto;
+}
+
+.caption {
+    background-color: #ffb500;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 25%;
+    text-align: center;
+    width: 50%;
+}
+
+#ad_column {
+    background-color: #efefef;
+    display: inline-block;
+    width: 20%;
+}
+
+.side_ad {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 2em;
+    max-width: 100%;
+    /* min-width: 200px; */
+    height: auto;
+}
+
+/****************************/
+/* media queries            */
+/****************************/
+
+@media screen and (max-width: 1200px) {
+    #content {
+        width: 85%;
+    }
+
+    .image > img {
+        max-width: 85%;
+    }
+    
+    #ad_column {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 768px) { 
+    #content > table {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #top_nav > span:first-child {
+        margin-left: 0em;
+    }
+    
+    #top > img {
+        display: none;
+    }
+    
+    #top2 {
+        display: block;
+        margin-left: 1.5em;
+    }
+
+    #content {
+        margin-left: 1.5em;
+    }
+}
+
+    
+    
+    

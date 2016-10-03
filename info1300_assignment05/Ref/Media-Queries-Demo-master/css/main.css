@@ -1,0 +1,137 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300';
+@font-face {
+	font-family: sf_light;
+	/* Dont sue me apple */
+	src: url(../fonts/SanFranciscoDisplay-Regular.otf);
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+/*
+	https://developer.mozilla.org/en-US/docs/Web/CSS/z-index
+	z-indexing is great.
+*/
+.meme {
+	position: absolute;
+	z-index: -1;
+}
+.header {
+	height: 500px;
+	position: relative;
+	background: -webkit-linear-gradient(#19FFCD, #00DDAD);
+	color: #009071;
+	z-index: -2;
+}
+.header .container {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35%;
+}
+.header .container .title {
+	font-family: sf_light;
+	font-size: 42px;
+	padding-bottom: 15px;
+}
+.about {
+	height: 100%;
+	width: 100%;
+	background: #fafafa;
+	padding-bottom: 100px;
+}
+.about .container {
+	width: 80%;
+	margin: auto;
+}
+.about .container .title {
+	text-align: center;
+	font-size: 38px;
+	padding-top: 60px;
+	font-family: sf_light;
+	color: #444;
+}
+.about .container .row .cell {
+	margin-top: 30px;
+	background: #FFFFFF;
+	outline: 1px solid #eaeaea;
+	border-radius: 3px;
+	display: inline-block;
+}
+.about .container .row .column-4 {
+	width: 31.5%;
+    margin: 50px 10px 0px 10px;
+}
+.about .container .row .cell .title {
+	font-size: 20px;
+	font-family: 'Open Sans', sans-serif;
+	color: #333;
+	font-weight: bold;
+	padding-top: 20px;
+	padding-left: 20px;
+	text-align: left;
+}
+.about .container .row .cell .content {
+	padding: 20px;
+	color: #666;
+}
+.experience {
+	background: #f1f1f1;
+	color: white;
+	height: 100%;
+	padding-bottom: 100px;
+}
+.experience .container {
+	width: 90%;
+	margin: auto;
+}
+.experience .container .title {
+	text-align: center;
+	font-size: 38px;
+	padding-top: 100px;
+	color: #333;
+	font-family: sf_light;
+}
+.experience .container .row {
+	width: 100%;
+	display: block;
+}
+.experience .container .row .cell {
+	background: white;
+	margin: 50px;
+	border-radius: 3px;
+	border: 1px solid #ebebeb;
+}
+.experience .container .row .cell .title {
+	color: #333;
+	text-align: left;
+	padding-left: 50px;
+	font-size: 28px;
+	padding-top: 50px;
+	font-family: sf_light;
+}
+.experience .container .row .cell .column-8 {
+	width: 66%;
+	display: inline-block;
+	vertical-align: top;
+}
+.experience .container .row .cell .column-4 {
+	width: 33%;
+	display: inline-block;
+}
+.experience .container .row .cell img {
+	max-height: 200px;
+	margin: auto;
+	display: block;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.experience .container .row .cell .content {
+	color: #666;
+	margin-left: 50px;
+	margin-top: 10px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+
+<!--
+INFO/CS 1300
+Fall 2016
+Steve Paling
+Sample HTML for Week 5, Box Model and Advanced Layout
+-->
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>HTML: Box Model and Advanced Layout</title>
+    <link rel="stylesheet" type="text/css" href="css/box_model2.css">
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Ovo">
+    <link rel="stylesheet" type="text/css"
+          href="https://fonts.googleapis.com/css?family=Muli">
+</head>
+
+<body>
+
+<div id="top">
+    
+    <div id="banner">
+        <h1>
+            1300@Cornell
+            <!-- icons adapted from https://openclipart.org/detail/111481/ft14-rectangle -->
+            <img src="images/ft14-rectangle-small.png" alt="social media icon">
+            <img src="images/ft14-rectangle-small.png" alt="social media icon">
+            <img src="images/ft14-rectangle-small.png" alt="social media icon">
+        </h1>
+    </div><!-- end of banner div -->
+  
+    <div id="global_nav">
+        <span class="nav_span"><a href="box_model_s2_p1.htm">Part 1</a></span>
+        <span class="nav_span">Part 2</span>
+    </div> <!-- end of global_nav div -->
+    
+</div> <!-- end of top div -->
+
+<div id="container">
+
+<div id="content">
+    
+    <div id="local_nav">
+        <span><a href="#random1">Random Content</a></span>
+        <span><a href="#random2">More Random Content</a></span>
+        <span><a href="#random3">Even More Random Content</a></span>
+        <span><a href="#random4">Bonus, Free Random Content</a></span>
+    </div> <!-- end of local_nav div -->
+        
+    <div id="center">
+        <h1>HTML: Box Model and Advanced Layout</h1>
+        <p class="byline">Stephen Paling</p>
+        <p class="byline">September 16, 2016</p>
+        
+        <h1>Part 2</h1>
+        
+        <a class="anchor" id="random1"></a>
+        <h2>Random Content</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum mi eget dui placerat, id imperdiet ligula fermentum. Aenean et justo non sapien interdum fringilla. Quisque ac nisi eget arcu faucibus rutrum. Curabitur ex felis, finibus eget ex ut, porta sollicitudin risus. In hac habitasse platea dictumst. Etiam eu tempus quam. Aenean tempus in turpis at sodales. Proin pharetra sollicitudin tempus. Sed sodales ligula ut nulla blandit semper. </p>
+
+        <div class="image_box">
+            <!-- image from http://www.codeproject.com/Articles/567385/CSSplusBoxplusModelplusandplusPositioning -->
+            <img src="images/box_model.png" alt="box model diagram">
+            <p class="caption">Figure 1: The Box Model.</p>
+        </div><!-- end of image_box div -->
+        
+        <p>Fusce consectetur nisi sed feugiat tristique. Vestibulum molestie eros urna, a porta nisi dictum vel. Mauris placerat ante ipsum, a ultricies tortor hendrerit ac. Suspendisse condimentum facilisis diam in varius. Integer facilisis, nulla vel pellentesque bibendum, justo enim interdum dui, at mattis augue ligula ac libero. Maecenas sodales lacus libero, sit amet facilisis tellus consectetur a. Nam porttitor vel lorem vel mattis. Nulla gravida ipsum sit amet est consequat ornare. Ut sit amet fermentum mi. Aenean eleifend tellus quis porttitor rhoncus. Vivamus lobortis, justo vitae efficitur vulputate, diam lorem gravida ipsum, et commodo erat eros id eros. Nunc fermentum mollis risus a fermentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam nec commodo nisi. Ut eget velit eu est interdum vehicula id vitae erat. Nam non porttitor orci. </p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum mi eget dui placerat, id imperdiet ligula fermentum. Aenean et justo non sapien interdum fringilla. Quisque ac nisi eget arcu faucibus rutrum. Curabitur ex felis, finibus eget ex ut, porta sollicitudin risus. In hac habitasse platea dictumst. Etiam eu tempus quam. Aenean tempus in turpis at sodales. Proin pharetra sollicitudin tempus. Sed sodales ligula ut nulla blandit semper. </p>
+
+        <a class="anchor" id="random2"></a>
+        <h2>More Random Content</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum mi eget dui placerat, id imperdiet ligula fermentum. Aenean et justo non sapien interdum fringilla. Quisque ac nisi eget arcu faucibus rutrum. Curabitur ex felis, finibus eget ex ut, porta sollicitudin risus. In hac habitasse platea dictumst. Etiam eu tempus quam. Aenean tempus in turpis at sodales. Proin pharetra sollicitudin tempus. Sed sodales ligula ut nulla blandit semper. </p>
+
+        <p>Fusce consectetur nisi sed feugiat tristique. Vestibulum molestie eros urna, a porta nisi dictum vel. Mauris placerat ante ipsum, a ultricies tortor hendrerit ac. Suspendisse condimentum facilisis diam in varius. Integer facilisis, nulla vel pellentesque bibendum, justo enim interdum dui, at mattis augue ligula ac libero. Maecenas sodales lacus libero, sit amet facilisis tellus consectetur a. Nam porttitor vel lorem vel mattis. Nulla gravida ipsum sit amet est consequat ornare. Ut sit amet fermentum mi. Aenean eleifend tellus quis porttitor rhoncus. Vivamus lobortis, justo vitae efficitur vulputate, diam lorem gravida ipsum, et commodo erat eros id eros. Nunc fermentum mollis risus a fermentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam nec commodo nisi. Ut eget velit eu est interdum vehicula id vitae erat. Nam non porttitor orci. </p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum mi eget dui placerat, id imperdiet ligula fermentum. Aenean et justo non sapien interdum fringilla. Quisque ac nisi eget arcu faucibus rutrum. Curabitur ex felis, finibus eget ex ut, porta sollicitudin risus. In hac habitasse platea dictumst. Etiam eu tempus quam. Aenean tempus in turpis at sodales. Proin pharetra sollicitudin tempus. Sed sodales ligula ut nulla blandit semper. </p>
+
+
+        <a class="anchor" id="random3"></a>
+        <h2>Even More Random Content</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum mi eget dui placerat, id imperdiet ligula fermentum. Aenean et justo non sapien interdum fringilla. Quisque ac nisi eget arcu faucibus rutrum. Curabitur ex felis, finibus eget ex ut, porta sollicitudin risus. In hac habitasse platea dictumst. Etiam eu tempus quam. Aenean tempus in turpis at sodales. Proin pharetra sollicitudin tempus. Sed sodales ligula ut nulla blandit semper. </p>
+
+        <p>Fusce consectetur nisi sed feugiat tristique. Vestibulum molestie eros urna, a porta nisi dictum vel. Mauris placerat ante ipsum, a ultricies tortor hendrerit ac. Suspendisse condimentum facilisis diam in varius. Integer facilisis, nulla vel pellentesque bibendum, justo enim interdum dui, at mattis augue ligula ac libero. Maecenas sodales lacus libero, sit amet facilisis tellus consectetur a. Nam porttitor vel lorem vel mattis. Nulla gravida ipsum sit amet est consequat ornare. Ut sit amet fermentum mi. Aenean eleifend tellus quis porttitor rhoncus. Vivamus lobortis, justo vitae efficitur vulputate, diam lorem gravida ipsum, et commodo erat eros id eros. Nunc fermentum mollis risus a fermentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam nec commodo nisi. Ut eget velit eu est interdum vehicula id vitae erat. Nam non porttitor orci. </p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum mi eget dui placerat, id imperdiet ligula fermentum. Aenean et justo non sapien interdum fringilla. Quisque ac nisi eget arcu faucibus rutrum. Curabitur ex felis, finibus eget ex ut, porta sollicitudin risus. In hac habitasse platea dictumst. Etiam eu tempus quam. Aenean tempus in turpis at sodales. Proin pharetra sollicitudin tempus. Sed sodales ligula ut nulla blandit semper. </p>
+
+        <a class="anchor" id="random4"></a>
+        <h2>Bonus, Free Random Content</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum mi eget dui placerat, id imperdiet ligula fermentum. Aenean et justo non sapien interdum fringilla. Quisque ac nisi eget arcu faucibus rutrum. Curabitur ex felis, finibus eget ex ut, porta sollicitudin risus. In hac habitasse platea dictumst. Etiam eu tempus quam. Aenean tempus in turpis at sodales. Proin pharetra sollicitudin tempus. Sed sodales ligula ut nulla blandit semper. </p>
+
+        <p>Fusce consectetur nisi sed feugiat tristique. Vestibulum molestie eros urna, a porta nisi dictum vel. Mauris placerat ante ipsum, a ultricies tortor hendrerit ac. Suspendisse condimentum facilisis diam in varius. Integer facilisis, nulla vel pellentesque bibendum, justo enim interdum dui, at mattis augue ligula ac libero. Maecenas sodales lacus libero, sit amet facilisis tellus consectetur a. Nam porttitor vel lorem vel mattis. Nulla gravida ipsum sit amet est consequat ornare. Ut sit amet fermentum mi. Aenean eleifend tellus quis porttitor rhoncus. Vivamus lobortis, justo vitae efficitur vulputate, diam lorem gravida ipsum, et commodo erat eros id eros. Nunc fermentum mollis risus a fermentum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nullam nec commodo nisi. Ut eget velit eu est interdum vehicula id vitae erat. Nam non porttitor orci. </p>
+
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed bibendum mi eget dui placerat, id imperdiet ligula fermentum. Aenean et justo non sapien interdum fringilla. Quisque ac nisi eget arcu faucibus rutrum. Curabitur ex felis, finibus eget ex ut, porta sollicitudin risus. In hac habitasse platea dictumst. Etiam eu tempus quam. Aenean tempus in turpis at sodales. Proin pharetra sollicitudin tempus. Sed sodales ligula ut nulla blandit semper. </p>
+    </div> <!-- end of center div -->
+        
+    <div id="ad_bar">
+        <!-- ad.gif by Steve Paling -->
+        <img src="images/ad.gif" alt="fake advertisement">
+        <!-- ad2.gif by Steve Paling -->
+        <img src="images/ad2.gif" alt="fake advertisement">
+    </div> <!-- end of ad_bar div -->
+    
+</div> <!-- end of content div -->   
+    
+<div id="footer">
+    <p>All original material copyright Steve Paling, 2016</p>
+</div> <!-- end of footer div -->
+    
+</div> <!-- end of container div -->
+
+</body>
+
+</html>

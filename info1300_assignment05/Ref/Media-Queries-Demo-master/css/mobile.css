@@ -1,0 +1,59 @@
+/* http://stackoverflow.com/questions/19592968/bootstrap-3-breakpoints-and-media-queries */
+
+/* if less than 480px */ 
+@media (max-width: 480px) {
+	.container {
+		width: 80% !important;
+		margin: auto !important;
+	}
+	/* http://stackoverflow.com/questions/5110249/wildcard-in-css-for-classes */
+	div[class*="column-"] {
+		width: 100% !important;
+		margin: 50px 0px 0px 0px !important;
+	}
+	.cell {
+		width: 100% !important;
+		margin: 50px 0px 0px 0px !important;
+	}
+}
+/* between 481 and 768 */ 
+@media (min-width: 481px) and (max-width: 768px) { 
+
+}
+/* between 769 and 992 */ 
+@media (min-width: 769px) and (max-width: 992px) {
+
+}
+/* between 993 and 1200 */ 
+@media (min-width: 993) and (max-width: 1200px) {
+	
+}
+/* greater than 1201 */ 
+@media (min-width: 1201px) {
+
+}
+
+/*
+
+CSS Specificity, try to avoid !important.
+
+Let's fix the above example during lecture
+
+eg.
+
+#container .cell p {
+	color: red;
+}
+
+.cell p {
+	color: blue;
+}
+
+which one wins?
+
+Tips
+
+Be as specific as possible when targeting elements/classes. 
+The more specific you are the easier it is to reuse, maintain and produce quality css
+
+*/
