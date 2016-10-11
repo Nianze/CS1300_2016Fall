@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Basic Events in JavaScript</title>
+    <link rel="stylesheet" type="text/css" href="styles/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/site.css">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <script src="scripts/frog_flipper.js"></script>
+  </head>
+  <body>
+    <div id="title">
+      <h1>Basic Events in JavaScript</h1>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div id="container">
+      <h1>Flip the Frog!</h1>
+      <div id="image_container">
+          <!-- basic frog image adapted from https://openclipart.org/detail/76111/frog-line-art -->
+          <!-- green frog image adapted from https://openclipart.org/detail/76105/frog -->
+          <!-- frog with hears image adapted from https://openclipart.org/detail/21262/green-valentine-frog-with-pink-hearts -->
+          <img id="frog"
+               onmouseover="frog_flip(1)" 
+               onmouseout="frog_flip(0)"
+               onclick="frog_flip(2)"
+               src="images/frog-line-art-pixabella-Green-Frog-300px.png" alt="frog"
+          >
+      </div> <!-- end of image_container div -->
+    </div>
+    <footer>
+      And that's the sound of sunshine...
+    </footer>
+  </body>
+</html>
