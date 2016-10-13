@@ -1,0 +1,23 @@
+/* All of YOUR styles go here. They take effect after those in the normalize CSS file, but will overwrite anything that conflicts. */
+
+
+/*****************************************/
+/* styling for square number table       */
+/*****************************************/
+
+#numbers {
+    border-collapse: collapse;
+}
+
+#numbers th,td {
+    padding: 1em;
+    text-align: center;
+}
+
+#numbers th {
+    border-bottom: solid 1px #ababab;
+}
+
+#numbers td {
+    border-bottom: solid 1px #bcbcbc;
+}
