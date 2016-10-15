@@ -6,10 +6,11 @@
     <link rel="stylesheet" type="text/css" href="styles/normalize.min.css">
     <link rel="stylesheet" type="text/css" href="styles/site.css">
     <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <script src="js/main.js"></script>
   </head>
   <body>
     <div id="title">
-      <h1>INFO/CS 1300 Site Template</h1>
+      <h1>Pokémon Introduction: Togepi Family</h1>
     </div>
     <nav>
       <a href="index.html">Home</a>
@@ -17,10 +18,20 @@
       <a href="contact.html">Contact</a>
     </nav>
     <div id="container">
-      Hello, world!
+      <div id="image_container">
+        <!-- togepi.jpg image adapted from http://platfus123.deviantart.com/art/Togepi-evolution-515733684 -->
+        <!-- 175Togepi adapted from https://wiki.52poke.com/wiki/File:175Togepi.png-->
+        <!-- 176Togetic adapted from https://wiki.52poke.com/wiki/File:176Togetic.png -->
+        <!-- 468Togekiss image from https://wiki.52poke.com/wiki/File:468Togekiss.png -->
+        <img id="pokemon_image" src="images/togepi_family.jpg" alt="Togepi family">
+      </div> <!-- end of image_container div -->
+        <div id="button_container">
+          <button onclick="image_loader(1)">Next</button>
+          <button onclick="image_loader(0)">Previous</button>
+      </div> <!-- end of button_container div -->
     </div>
     <footer>
-      September 27th, 2016 | And that's the sound of sunshine...
+      <script src="js/date.js"></script>
     </footer>
   </body>
 </html>

@@ -5,17 +5,24 @@
 */
 
 #button_container {
-    text-align: center;
-    margin-top: 1em;
+    float: left;
+    height: 302px;
+    width: 150px;
 }
 
 #image_container {
     border: solid 1px rgba(184, 38, 1, 0.25);
-    text-align: center;
-    height: 431px;
-    width: 782px;
+    display: inline-block;
+    height: 302px;
+    padding: 1em;
+    position: relative;
+    width: 302px;
 }
 
 button {
     width: 100px;
+}
+
+#reset {
+    margin-top: 1em;
 }
