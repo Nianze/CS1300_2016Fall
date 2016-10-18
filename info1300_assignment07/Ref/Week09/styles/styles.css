@@ -1,0 +1,20 @@
+/* All of YOUR styles go here. They take effect after those in the normalize CSS file, but will overwrite anything that conflicts. */
+
+h2 {
+    font-weight: normal;
+    text-align: center;
+}
+
+h3:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+.down {
+    height: 100%;
+}
+
+#container {
+    background-color: #ffffff;
+    height: 20em;
+}
