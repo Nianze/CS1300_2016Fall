@@ -1,0 +1,78 @@
+/* All of YOUR styles go here. They take effect after those in the normalize CSS file, but will overwrite anything that conflicts. */
+
+
+/* global styling */
+h2 {
+    font-weight: normal;
+    text-align: center;
+}
+
+h3:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+/* styling by section */
+#container {
+    background-color: #ffffff;
+    height: 300px;
+}
+
+#animation {
+    background-color: #000033;
+    border: solid 1px orange;
+    height: 298px;
+    max-width: 880px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#moon {
+    position: absolute;
+}
+
+#patch {
+    /* border: solid 1px white; */
+    bottom: 0;
+    height: 75px;
+    top: 215px;
+    left: 5px;
+    position: absolute;
+    width: 330px;
+}
+
+#ground {
+    top: 267px;
+    position: absolute;
+}
+
+#ground img {
+    margin: 0;
+    padding: 0;
+}
+
+#tree {
+    top: 48px;
+    left: 630px;
+    position: absolute;
+}
+
+#cloud {
+    top: 35px;
+    right: 0px;
+    left: 0px;
+    position: absolute;
+}
+
+#ghost {
+    display: none;
+    left: 50px;
+    position: absolute;
+    top: 205px;
+}
+
+#button_div {
+    margin: 0 auto;
+    margin-top: 0.5em;
+    max-width: 880px;
+}

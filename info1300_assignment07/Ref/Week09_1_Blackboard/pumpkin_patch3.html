@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>INFO/CS 1300: jQuery Animation</title>
+    <link rel="stylesheet" type="text/css" href="styles/normalize.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/site.css">
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div id="title">
+      <h1>Pumpkin Patch Animation</h1>
+    </div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+      
+    <div id="container">
+        <div id="animation">
+            <img id="ghost" src="images/1285699159-300px.png" alt="ghost">
+            <div id="patch">
+                <!-- images adapted from:
+                pumpkins:
+                https://openclipart.org/detail/209054/carved-pumpkins-1
+                https://openclipart.org/detail/209055/carved-pumpkins-2
+                https://openclipart.org/detail/209059/carved-pumpkins-lit-1
+                https://openclipart.org/detail/209060/carved-pumpkins-lit-2
+                tree:
+                https://openclipart.org/detail/168940/autumn
+                grass:
+                https://openclipart.org/detail/122113/grass
+                moon:
+                https://openclipart.org/detail/20299/moon-in-comic-style
+                cloud:
+                https://openclipart.org/detail/167268/simple-cloud-black-white
+                ghost:
+                https://openclipart.org/detail/87751/ghost
+                -->
+                <img class="patch" src="images/carved-pumpkins-1-300px.png" alt="pumpkin 1">
+                <img class="patch" src="images/carved-pumpkins-2-300px.png" alt="pumpkin 2">
+                <img class="patch" src="images/carved-pumpkins-lit-1-300px.png" alt="pumpkin 3">
+                <img class="patch" src="images/carved-pumpkins-lit-2-300px.png" alt="pumpkin 4">  
+            </div> <!-- end of patch div -->
+            <img id="moon" src="images/rg1024-Moon-in-comic-style-300px.png" alt="cartoon moon">
+            <img id="cloud" src="images/simplecloud-bw-300px.png" alt="cloud">
+            <img id="tree" class="right" src="images/tree_fall.png" alt="autumn tree">
+            <div id="ground">
+                <img src="images/1298512108-300px.png" alt="grass">
+                <img src="images/1298512108-300px.png" alt="grass">
+                <img src="images/1298512108-300px.png" alt="grass">
+                <img src="images/1298512108-300px.png" alt="grass">
+                <img src="images/1298512108-300px.png" alt="grass">
+            </div> <!-- end of ground div -->
+        </div> <!-- end of animation div -->
+        <div id="button_div">
+            <button onclick="animate_pix()">Animate</button>
+            <button onclick="stop_all()">Stop</button>
+            <button onclick="un_do()">Reset</button>
+        </div> <!-- end of button_div -->
+    </div> <!-- end of content div -->
+    <footer>
+      <!-- date inserted here by JS -->
+    </footer>
+    <script src="js/pumpkin_patch_animation.js"></script>
+    <script src="js/date_maker.js"></script>
+  </body>
+</html>
