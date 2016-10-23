@@ -2,3 +2,7 @@
 #ghost {
     display:none;
 }
+
+#car {
+    position: relative;
+}
