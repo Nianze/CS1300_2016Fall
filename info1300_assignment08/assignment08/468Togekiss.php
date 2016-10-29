@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>468-Togekiss (Pokémon)</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=David+Libre">
+</head>
+
+<body>
+    <?php
+      include 'includes/top.php';
+    ?>
+
+<div id="container">
+
+<div id="content">
+
+    <div id="local_nav">
+        <span><a href="#Introduction">Introduction</a></span>
+        <span><a href="#Biology">Biology</a></span>
+        <span><a href="#Trivia">Trivia</a></span>
+        <span><a href="#Origin">Origin</a></span>
+    </div> <!-- end of local_nav div -->
+
+    <div id="center">
+        <h1>Pokémon Introduction</h1>
+        <p class="byline">Nianze Liu</p>
+        <p class="byline">NL443</p>
+        <p class="byline">September 23, 2016</p>
+
+        <h1>Togekiss</h1>
+
+        <div class="image">
+            <!-- HTML image from https://wiki.52poke.com/wiki/File:468Togekiss.png  -->
+            <img src="images/468Togekiss.png" alt="Togekiss">
+            <p class="caption">Togekiss: Jubilee Pokémon</p>   
+        </div> <!-- end of image div -->
+        
+        <a class="anchor" id="Introduction"></a>
+        <h2>Introduction</h2>
+ 	    <p>Togekiss (Japanese: トゲキッス Togekiss) is a dual-type Fairy/Flying    Pokémon. Prior to Generation VI, it was a dual-type Normal/Flying Pokémon.</p  > 
+ 	    <p>It evolves from Togetic when exposed to a Shiny Stone. It is the final     form of Togepi.</p>
+        
+        <a class="anchor" id="Biology"></a>        
+        <h2>Biology</h2>
+        <p>Togekiss is a white, avian Pokémon with an ovoid body. While its feet are small and situated closely together, its wings are broad and triangular. Red and blue triangular markings over its underside, and it has a short tail  consisting of three feathers. On the back of its head are three spikes: a    red tipped on the right, a blue tipped one on the left, and a pure white one   in the middle. Togekiss has a relatively flat face and small, black eyes. This Pokémon is rarely seen, only appearing in peaceful areas. When it is   seen or visits respectful people, it showers gifts of blessings and kindness. </p>
+    
+        <a class="anchor" id="Trivia"></a>
+        <h2>Trivia</h2>    
+        <ul>
+            <li>Togekiss learns the most moves that never miss regardless of the user's accuracy or the foe's evasiveness: Aura Sphere, Shock Wave, Swift, Aerial Ace, and Magical Leaf.</li>
+            <li>Togekiss's weight is equal to that of Lucas, as well as four other Pokémon; Sudowoodo, Skuntank, Fearow, and Yanma. Togekiss is also the same height as Ethan.</li>
+            <li>As of Generation VI, no other Pokémon have same dual Egg Group as Togekiss and its pre-evolution. In this case, both in Flying and Fairy are unique.</li>
+            <li>As of Generation VI, no other Pokémon have the same type combination as Togekiss and its pre-evolution.</li>
+            <li>Togekiss is the only Pokémon that has a gender ratio of 7:1 that have had a female shown in the anime but not a male.</li>
+            <li>Togekiss is the only Pokémon with a base stat total of 545.</li>
+        </ul>
+    
+        <a class="anchor" id="Origin"></a>
+        <h2>Origin</h2>
+        <p>Togekiss's design appears to draw inspiration from fairies and birds. Its    association with peace and joy, as well as its white coloration, suggests  inspiration from doves, but its soaring flight and some physical aspects are     similar to those of large birds of prey. Togekiss may have also been    designed to resemble a flying wing.</p>
+    </div> <!-- end of center div -->
+
+    <div id="ad_bar">
+        <!-- 001.gif from https://wiki.52poke.com/wiki/%E5%A6%99%E8%9B%99%E7%A7%8D%E5%AD%90 -->
+        <img src="images/001.gif" alt="fake advertisement">
+        <!-- 004.gif from https://wiki.52poke.com/wiki/%E5%B0%8F%E7%81%AB%E9%BE%99 -->
+        <img src="images/004.gif" alt="fake advertisement">
+        <!-- 007.gif from https://wiki.52poke.com/wiki/%E6%9D%B0%E5%B0%BC%E9%BE%9F -->
+        <img src="images/007.gif" alt="fake advertisement">        
+        <!-- 252.gif from https://wiki.52poke.com/wiki/%E6%9C%A8%E5%AE%88%E5%AE%AB -->
+        <img src="images/252.gif" alt="fake advertisement">
+        <!-- 255.gif from https://wiki.52poke.com/wiki/%E7%81%AB%E7%A8%9A%E9%B8%A1 -->
+        <img src="images/255.gif" alt="fake advertisement">
+        <!-- 258.gif from https://wiki.52poke.com/wiki/%E6%B0%B4%E8%B7%83%E9%B1%BC -->
+        <img src="images/258.gif" alt="fake advertisement"> 
+        <!-- 468.gif from https://wiki.52poke.com/wiki/%E6%B3%A2%E5%85%8B%E5%9F%BA%E6%96%AF -->
+        <img src="images/468.gif" alt="fake advertisement">
+        <!-- ad.gif by Steve Paling -->
+        <img src="images/ad.gif" alt="fake advertisement">
+        <!-- ad2.gif by Steve Paling -->
+        <img src="images/ad2.gif" alt="fake advertisement">                      
+    </div> <!-- end of ad_bar div -->
+
+</div> <!-- end of content div -->   
+
+<div id="footer">
+    <p>Copyright John Smith, 2016</p>
+</div> <!-- end of footer div -->
+
+</div> <!-- end of container div -->
+
+</body>
+
+</html>
