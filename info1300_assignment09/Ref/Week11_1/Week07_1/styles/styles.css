@@ -1,0 +1,16 @@
+/* simple styling for frog flipper in Week 7 lecture */
+
+#image_container {
+    /* border: solid 1px red; */
+    width: 100%;
+}
+
+#image_container img {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+h1 {
+    text-align: center;
+}
