@@ -1,0 +1,106 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+    font-family: myfont;
+    src: url(../fonts/SEGOEUIL.ttf);
+}
+body
+{
+	 font-family: myfont;
+}
+.full
+{
+	background-color:#fff;
+}
+.tile
+{
+	text-align:center;
+	padding-bottom:15px;
+	padding-top:15px;
+}
+.slider
+{
+	padding-bottom:20px;
+}
+.slider img
+{
+	float:left;
+}
+.tile h1
+{
+	font-size:40px;
+	color:#2E4881;
+	 font-family: myfont;
+}
+.new
+{
+
+	background-image:url(http://www.crossfittonbridge.co.uk/wp-content/uploads/2012/11/Black-Background-Hole-2-2560x1600-by-Freeman.jpg);
+	background-size:cover;
+	padding-bottom:30px;
+}
+.btn
+{
+	background-color:#8DD95B;
+	color:#fff;
+}
+.new2
+{
+	background-image:url(http://images.apple.com/v/iphone/home/q/home/images/iphone_for_business_large.jpg);
+	background-attachment:fixed;
+	background-size:cover;
+}
+.inner h2
+{
+	color:#fff;
+		 font-family: myfont;
+	text-align:center;
+}
+.footermenu
+{
+	padding-top:10px;
+	padding-bottom:15px;
+}
+.footermenu a
+{
+	color:#000;
+}
+.footermenu h4
+{
+	font-size:16px;
+	font-weight:600;
+}
+.footermenu ul
+{
+	margin:0px;
+	padding:0px;
+	
+	}
+.footermenu ul li
+{
+	list-style:none;
+}
+.txt a
+{
+	color:#fff;
+}
+.txt p
+{
+	color:#fff;
+	text-align:left;
+	font-size:15px;
+}
+.txt h2
+{
+	color:#fff;
+	text-align:left;
+	
+}
+.footer
+{
+	text-align:center;
+	padding-bottom:15px;
+	padding-top:15px;
+	
+}
